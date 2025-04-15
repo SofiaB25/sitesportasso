@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #004d99;
+    color: white;
+    padding: 15px 30px;
+}
+
+header .logo {
+    height: 50px;
+}
+
+header .association-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#members {
+    padding: 40px 30px;
+    background-color: #fff;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #004d99;
+}
+
+.liste-membres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.liste-membres li {
+    text-align: center;
+    max-width: 250px;
+}
+
+.liste-membres img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #004d99;
+}
+
+.liste-membres li p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+#discours {
+    padding: 40px 30px;
+    background-color: #ffffff;
+    margin-top: 30px;
+}
+
+#discours p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #004d99;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#contact {
+    background-color: #004d99;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+#contact h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+}
+
+    header nav ul li {
+        margin-left: 0;
+        margin
+}
