@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header {
+    background-color: #162c75;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    height: fit-content;
+  }
+  
+  header .logo {
+    width: 160px;
+  }
+  
+  header .association-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-right: 20px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #f4f4f4;
+    color: #162c75;
+  }
+
+.don-section {
+    background-color: rgba(0, 0, 0, 0.7);
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.don-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.don-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.don-form button {
+    background-color: #162c75;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.don-form button:hover {
+    background-color: #162c75;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .don-section {
+        margin: 20px;
+    }
+}
+
+footer {
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #162c75;
+    color: white;
+    margin-top: 30px;
+  }
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+    .logobordeaux.jpg {
+      width: 15px;
+      height: auto;
+    }

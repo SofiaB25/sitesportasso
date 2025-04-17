@@ -5,9 +5,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="For Rest Gump est une association sportive dédiée à la collecte de fonds pour les personnes handicapées à travers des événements sportifs.">
-<title>Association For Rest Gump - Evenements</title>
+<title>Association For Rest Gump - Faireundon</title>
 <link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="Evenements.css">
+<link rel="stylesheet" href="Faireundon.css">
+
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         <a href="accueil">
             <img src="Logo Asso.png" alt="Logo de l'Association For Rest Gump" class="logo">
         </a>
-        <span class="association-name"><p>For Rest Gump</p><p>"Depensez vous pour la bonne cause"</p></span>  
+        <span class="association-name"><p>For Rest Gump</p><p>"Depensez vous pour la bonne cause"</p></span> 
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
@@ -26,22 +27,23 @@
         </nav>
     </header>
 
-    <main>    
-        <section id="nosevenements">
-            <h2>Événements à venir</h2>
-            <ul>
-                <li>Randonnées Easter Egg – 20 Avril 2025</li>
-                <li>Course ChildishJoy – 10 mai 2025</li>
-                <li>Marche nordique Citar Léopard – 24 mai 2025</li>
-                <li>Marathon En Avant – 7 Juin 2025</li>
-                <li>Randonnées Mont St flèche – 21 Juin 2025</li>
-                <li>Randonnées Retrouvailles Asso Paris – 5 Juillet 2025</li>
-                <li>Course Handi-Support – 20 Juillet 2025</li>
-                <li>Marche nordique St Aubain – 10 Juillet 2025</li>
-                <li>Marathon EDT Collab Adidas – 2 Août 2025</li>
-                <li>Randonnées Ebony – 27 Août 2025</li>
-            </ul>
-        </section>
+    <section class="don-section">
+        <h1>Faites un don</h1>
+        <p>Votre soutien pour les associations est primordial. Merci !</p>
+
+        <form class="don-form" action="#" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="montant">Montant (€) :</label>
+            <input type="number" id="montant" name="montant" min="1" required>
+
+            <button type="submit">Faire un don</button>
+        </form>
+    </section>
 
     <footer>
         <p>&copy; 2025 Association For Rest Gump. Tous droits réservés.</p> 
@@ -49,5 +51,5 @@
         <img src="logo bordeaux.jpg" alt="Logo de la Ville de Bordeaux" class="logobordeaux">
     </footer>
 </body>
-    
-</html>        
+
+</html>
